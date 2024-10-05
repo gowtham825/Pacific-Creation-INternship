@@ -1,0 +1,155 @@
+/** 
+Hello Future Developer Thanks for Using learningrobo.com, 
+Check our website Regularly For New Snippets Post.
+
+Share & Support us
+**/
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+*{
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+.main{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+.submain{
+    height:700px;
+    background-color: rgb(249, 243, 243);
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    
+}
+.submain0{
+   
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    
+    text-align: center;
+}
+
+.item1{
+    height:500px ;
+    background-color: #f08181;
+   
+  
+    width: 100%;
+}
+.submain1{
+    text-align: center;
+    height: 200px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+.item5{
+    height: 195px;
+    background-color: rgb(199, 53, 24);
+    width: 70%;
+   
+}
+.item6{
+    height: 195px;
+    background-color: rgb(199, 53, 24);
+    /* background-color: rgb(7, 110, 200); */
+    width: 70%;
+}
+.submain2{
+    text-align: center;
+    height: 700px;
+    background-color: rgb(231, 231, 237);
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    gap: 10px;
+}
+.item2{
+    height: 175px;
+    width: 100%;
+    background-color: rgb(199, 53, 24);
+    /* background-color: black; */
+}
+.item3{
+    height: 175px;
+    width: 100%;
+    background-color: rgb(199, 53, 24);
+    /* background-color: rgb(76, 205, 33); */
+}
+.item4{
+    height: 175px;
+    width: 100%;
+    background-color: rgb(199, 53, 24);
+    /* background-color: rgb(219, 226, 217); */
+}
+.item7{
+    height: 175px;
+    width: 100%;
+    background-color: rgb(199, 53, 24);
+    /* background-color: rgb(11, 24, 7); */
+}
+@media screen and (max-width: 1024px) {
+    .main {
+        flex-direction: column;
+    }
+    .submain, .submain2 {
+        width: 100%;
+        height: auto;
+    }
+    .submain0, .submain1, .submain2 {
+        flex-direction: column;
+    }
+    .item5, .item6 {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 624px) {
+    .main {
+        flex-direction: column;
+    }
+    .submain, .submain2 {
+        width: 100%;
+        height: auto;
+    }
+    .submain0, .submain1, .submain2 {
+        flex-direction: column;
+    }
+    .item5, .item6 {
+        width: 100%;
+    }
+    .item1, .item2, .item3, .item4, .item7 {
+        height: auto;
+        width: 100%;
+    }
+}
+
+
+
+
+
+
+
+/* Write all css above this and delete this comment */
+.credit a {
+    text-decoration: none;
+    color: #121212;
+    font-weight: 800;
+}
+  
+.credit {
+    color: #121212;
+    text-align: center;
+    margin-top: 10px;
+    font-family: Verdana,Geneva,Tahoma,sans-serif;
+}
+.credit span{
+    color:#000;
+    font-size:20px;
+    display: flex;
+    flex-direction: row;
+}     

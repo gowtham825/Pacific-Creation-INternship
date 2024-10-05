@@ -1,0 +1,164 @@
+/** 
+Hello Future Developer Thanks for Using learningrobo.com, 
+Check our website Regularly For New Snippets Post.
+
+Share & Support us
+**/
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+* {
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+.main {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  /* flex-direction: column; */
+  /* gap: 20px; */
+  /* justify-content: center;
+    text-align: center; */
+  /* background-color: rgb(33, 30, 30); */
+  padding: 10px;
+  /* z-index: -4; */
+  flex-wrap: wrap;
+  gap: 15px;
+  justify-content: center;
+}
+.submain {
+  border-radius: 10px;
+  display: flex;
+  /* flex-direction: column; */
+  height: 48vh;
+  background: linear-gradient(rgb(128, 76, 202), rgb(59, 15, 98));
+  padding: 10px;
+  width: 38vw;
+  transition: transform 0.3s ease;
+}
+.submain:hover {
+  box-shadow: 0 0 20px rgba(255, 255, 255, 0.7); /* Glowing effect */
+  transform: scale(1.1);
+}
+.s1 {
+  gap: 10px;
+  display: flex;
+  height: 43vh;
+  width: 15vw;
+  /* background-color: rebeccapurple; */
+  padding: 40px;
+
+  padding-left: 20px;
+}
+
+.s2 {
+  /* display: flex; */
+  height: 35vh;
+  width: 17vw;
+  background-color: #fff;
+  border-radius: 10px;
+  padding: 10px;
+  /* padding-top: 0px; */
+  display: flex;
+}
+.image {
+  height: 150px;
+  width: 160px;
+  background-color: #000;
+}
+.s3 {
+  height: 35vh;
+  /* background-color: aqua; */
+  width: 25vw;
+  padding: 25px;
+  gap: 2px;
+}
+.s31 {
+  height: 18vh;
+
+  /* background-color: #000; */
+  color: #f5eeee;
+}
+.s32 {
+  height: 10vh;
+  /* background-color: #fff; */
+  padding: 10px;
+  /* paddigng: 10px; */
+  gap: 20px;
+  display: flex;
+  padding-left: 0px;
+}
+.dot {
+  height: 55px;
+  align-items: center;
+  text-align: center;
+  /* padding-top: -2px; */
+  width: 55px;
+  border-radius: 34px;
+  background-color: rgb(241, 235, 235);
+}
+@media screen and (max-width: 1024px) {
+  .submain {
+    flex-direction: column;
+    width: 80vw;
+    height: auto;
+  }
+
+  .s1 {
+    width: 100%;
+    height: auto;
+    padding: 20px;
+  }
+
+  .s2 {
+    width: 100%;
+    height: auto;
+  }
+
+  .s3 {
+    width: 100%;
+    height: auto;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .submain {
+    flex-direction: column;
+    width: 90vw;
+    height: auto;
+  }
+
+  .s1 {
+    width: 100%;
+    height: auto;
+    padding: 15px;
+  }
+
+  .s2 {
+    width: 100%;
+    height: auto;
+  }
+
+  .s3 {
+    width: 100%;
+    height: auto;
+  }
+}
+
+/* Write all css above this and delete this comment */
+.credit a {
+  text-decoration: none;
+  color: #121212;
+  font-weight: 800;
+}
+
+.credit {
+  color: #121212;
+  text-align: center;
+  margin-top: 10px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.credit span {
+  color: #000;
+  font-size: 20px;
+  display: flex;
+  flex-direction: row;
+}

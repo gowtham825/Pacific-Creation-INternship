@@ -1,0 +1,162 @@
+body {
+    padding: 0;
+    margin: 0;
+   
+}
+.main{
+    height: 80%;
+    width: 80%;
+    display: flex;
+    flex-direction: row;
+    gap:10px;
+}
+.sub1{
+    height: 100vh;
+    width: 38vw;
+    background-color: rgb(242, 236, 236);
+    display:flex;
+    flex-direction: column;
+    text-align: center;
+gap: 10px;
+    
+
+}
+.a1{
+    height: 33.3vh;
+    width: 33.3vw;
+    background-color: red;
+}
+.a2{
+    height: 33.3vh;
+    width: 33.3vw;
+    background-color: red;
+}
+.a3{
+    height: 33.3vh;
+    width: 33.3vw;
+    background-color: red;
+}
+.a4{
+    height: 33.3vh;
+    width: 33.3vw;
+    background-color: red;
+    font:  sans-serif;
+    
+
+}
+
+.sub2{
+    height: auto;
+    color: aliceblue;
+    display:flex;
+    flex-direction:column;
+    width:  58vw;
+    text-align: center;
+    gap: 10px;
+    background-color: rgb(247, 247, 247);
+} 
+
+ .b1{
+    height: 75vh;
+    width: 32vw;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+}
+.b2{
+    height: 24vh;
+    width: 32vw;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+
+} 
+.sub3{
+    height: 100vh;
+    width: 38vw;
+    background-color: rgb(242, 236, 236);
+    display:flex;
+    flex-direction: column;
+    text-align: center;
+gap: 10px;
+    
+
+}
+.c1{
+    height: 33.3vh;
+    width: 33.3vw;
+    background-color: red;
+}
+.c2{
+    height: 33.3vh;
+    width: 33.3vw;
+    background-color: red;
+}
+.c3{
+    height: 33.3vh;
+    width: 33.3vw;
+    background-color: red;
+}
+.c4{
+    height: 33.3vh;
+    width: 33.3vw;
+    background-color: red;
+    font:  sans-serif;
+    
+
+}
+@media screen and (max-width: 1024px) {
+    .main {
+        flex-direction: column;
+        width: 100%;
+        height: auto;
+    }
+
+    .sub1, .sub3 {
+        width: 100%;
+        height: auto;
+    }
+
+    .a1, .a2, .a3, .a4,
+    .c1, .c2, .c3, .c4 {
+        height: 25vh;
+        width: 100%;
+    }
+
+    .sub2 {
+        width: 100%;
+    }
+
+    .b1, .b2 {
+        width: 100%;
+    }
+}
+
+
+@media screen and (max-width: 630px) {
+    .main {
+        flex-direction: column;
+        width: 100%;
+        height: auto;
+    }
+
+    .sub1, .sub3 {
+        width: 100%;
+        height: auto;
+    }
+
+    .a1, .a2, .a3, .a4,
+    .c1, .c2, .c3, .c4 {
+        height: 20vh;
+        width: 100%;
+    }
+
+    .sub2 {
+        width: 100%;
+    }
+
+    .b1, .b2 {
+        width: 100%;
+    }
+}
+

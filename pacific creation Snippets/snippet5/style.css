@@ -1,0 +1,119 @@
+body {
+    margin: 0px;
+    padding: 10px;
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+    /* background-color: rgb(187, 187, 16); */
+    width: 100%;
+
+    height: 700px;
+    gap: 1vh;
+}
+.sub1{
+    text-align: center;
+    height: 233.3px;
+    width: 100%;
+    /* background-color: rgb(245, 242, 242); */
+    display: flex;
+    gap: 10px;
+}
+.a1{
+    height: 233.3px;
+    background-color: #c61111;
+    width:10%;
+}
+.a2{
+    height: 233.3px;
+    background-color: #121212;
+    color: white;
+    width:30%;
+}
+.a3{
+    height: 233.3px;
+    background-color: #e21313;
+    width:60%;
+}
+.sub2{
+    text-align: center;
+    height: 233.3px;
+    width: 100%;
+    /* background-color: rgb(10, 197, 20); */
+    display: flex;
+    gap: 10px;
+}
+.b1{
+    height: 233.3px;
+    background-color: #121212;
+    color: white;
+    width:10%;
+}
+.b2{
+    height: 233.3px;
+    background-color: #c61111;
+    width:30%;
+}
+.b3{
+    height: 233.3px;
+    background-color: #121212;
+    color: white;
+    width:60%;
+}
+.sub3{
+    text-align: center;
+    height: 233.3px;
+    width: 100%;
+    /* background-color: rgb(10, 197, 20); */
+    display: flex;
+    gap: 10px;
+}
+.c1{
+    height: 233.3px;
+    background-color: #c61111;
+    width:10%;
+}
+.c2{
+    height: 233.3px;
+   background-color: #121212;
+   color: white;
+    width:30%;
+}
+.c3{
+    height: 233.3px;
+    background-color: #e21313;
+    width:60%;
+}
+@media screen and (max-width: 1024px) {
+    .main {
+        height: auto;
+    }
+
+    .sub1, .sub2, .sub3 {
+        flex-direction: column;
+        height: auto;
+    }
+
+    .a1, .a2, .a3, .b1, .b2, .b3, .c1, .c2, .c3 {
+        width: 100%;
+        height: 150px;
+    }
+}
+
+@media screen and (max-width: 630px) {
+    .main {
+        height: auto;
+    }
+
+    .sub1, .sub2, .sub3 {
+        flex-direction: column;
+        height: auto;
+    }
+
+    .a1, .a2, .a3, .b1, .b2, .b3, .c1, .c2, .c3 {
+        width: 100%;
+        height: 100%; 
+    }
+}
+

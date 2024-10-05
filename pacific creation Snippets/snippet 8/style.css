@@ -1,0 +1,131 @@
+/** 
+Hello Future Developer Thanks for Using learningrobo.com, 
+Check our website Regularly For New Snippets Post.
+
+Share & Support us
+**/
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+* {
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+.main {
+   background-image: linear-gradient(to bottom right,rgb(80, 10, 80), rgb(219, 75, 224)); 
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  gap: 10px;
+  padding-top:10% ;
+  padding-left: 8%;
+}
+
+.s1 {
+  display: flex;
+  flex-direction: column;
+  height: 55%;
+  width: 30%;
+  border-style: ridge;
+   border-radius: 8px;
+   border-color: goldenrod;
+ 
+  background-image: linear-gradient(rgb(128, 16, 128), rgb(212, 45, 217));
+
+}
+.s1:hover{
+  background-color: #000;
+  /* transform: scale(1.1);
+  background-image: linear-gradient(to bottom right,rgb(75, 43, 75), rgb(228, 124, 231));
+  box-reflect:below 10px linear-gradient(to bottom, rgba(0,0,0,0.0), rgba(0,0,0,0.4)); */
+  /* transform-style:inherit; */
+  border-color: gold;
+  transform: scale(1.05);
+  box-shadow: 0 0 20px gold;
+}
+.header {
+  height: 20%;
+  width: 100%;
+  /* background-color: black; */
+  /* border-style: ridge; */
+}
+.h1 {
+  height: 70%;
+  /* font-size: medium; */
+  width: 33%;
+  position: relative;
+  right: 10;
+  top: 15%;
+  display: flex;
+  border-radius: 8px;
+  align-items: center;
+  justify-content: center;
+
+  left: 65%;
+}
+
+.gap {
+    position: static;
+
+  height: 60%;
+  width: 100%;
+  /* background-color: #fff; */
+}
+.footer {
+  /* background-color: black; */
+  height: 20%;
+  display: flex;
+}
+.f1 {
+  height: 70%;
+  /* background-color: rgb(242, 238, 238); */
+  width: 23%;
+  position: relative;
+  right: 10;
+  top: 15%;
+  left: 10px;
+  display: flex;
+  border-radius: 8px;
+  align-items: center;
+  justify-content: center;
+  border-style: ridge;
+  border-color: goldenrod;
+
+}
+#butto {
+  height: 80%;
+  width: 90%;
+  color: #252424;
+}
+.f2 {
+  color: white;
+  padding: 30px;
+  padding-left: 40px;
+  position: relative;
+  left: 51%;
+  top: -20px;
+
+  height: 70%;
+  align-items: center;
+  text-align: center;
+  width: 20%;
+  font-size: large;
+}
+
+
+.credit a {
+  text-decoration: none;
+  color: #121212;
+  font-weight: 800;
+}
+
+.credit {
+  color: #121212;
+  text-align: center;
+  margin-top: 20px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.credit span {
+  color: #000;
+  font-size: 20px;
+  display: flex;
+  flex-direction: row;
+}

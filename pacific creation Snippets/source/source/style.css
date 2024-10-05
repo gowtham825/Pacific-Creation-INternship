@@ -1,0 +1,37 @@
+/** 
+Hello Future Developer Thanks for Using learningrobo.com, 
+Check our website Regularly For New Snippets Post.
+
+Share & Support us
+**/
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+*{
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+
+
+
+
+
+/* Write all css above this and delete this comment */
+.credit a {
+    text-decoration: none;
+    color: #121212;
+    font-weight: 800;
+}
+  
+.credit {
+    color: #121212;
+    text-align: center;
+    margin-top: 10px;
+    font-family: Verdana,Geneva,Tahoma,sans-serif;
+}
+.credit span{
+    color:#000;
+    font-size:20px;
+    display: flex;
+    flex-direction: row;
+}     

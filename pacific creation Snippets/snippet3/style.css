@@ -1,0 +1,146 @@
+body {
+    margin: 0px;
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(246, 246, 243);
+    width: calc(100%-2vh);
+
+    height: 100vh;
+    gap: 1vh;
+}
+.c1{
+    padding-top: 20px;
+    display: flex;
+   
+    height: 400px;
+    
+    gap: 5px;
+}
+
+.c1s1{
+    display: flex;
+    gap: 10px;
+    background-color: rgb(227, 224, 13);
+    height: 400px;
+    width: 120vh;
+    
+    
+}
+.c1s2{
+    display: flex;
+    
+    background-color: rgb(227, 224, 13);
+    height: 400px;
+    width: 50vh;
+   
+   
+    
+}
+
+.c1s4{
+    height: 700px;
+    background-color: rgb(227, 224, 13);
+    gap: 2px;
+    width: 25vh;
+
+}
+.c2{
+    width:86%;
+    
+    display: flex;
+    height: 200px;
+    gap: 5px;
+}
+.c2s1{
+    display: flex;
+    background-color: rgb(227, 224, 13);
+    width: 37.8%;
+    height: 200px;
+    gap: 3px;
+   
+}
+.c2s2{
+    display: flex;
+    background-color: rgb(227, 224, 13);
+    width: 77%;
+    border-radius: 2px ;
+    gap: 2px;
+}
+.c3{
+   
+    display: flex;
+    width: 86%;
+    gap: 5px;
+}
+.c3s1{
+    width: 32.8%;
+    background-color: rgb(227, 224, 13);
+}
+.c3s2{
+    width: 33.6%;
+    background-color: rgb(227, 224, 13);
+}
+.c3s3{
+    width: 33.6%;
+    background-color: rgb(227, 224, 13);
+}
+
+
+@media screen and (max-width:600px) {
+    .main {
+        background-color: rgb(13, 13, 14);
+    }
+    .c1s4{
+        width: 210px;
+        display: inline-flex;
+        flex-direction: column;
+        background-color: #fff;
+        height: 400px;
+        
+
+    }
+    .c1s1{
+        width: 210px;
+        background-color: #fff;
+    }
+    .c1s2{
+        width: 210px;
+    }
+    .c2s1{
+        width: 315px;
+    }
+    .c2s2{
+        width: 315px;
+    }
+
+
+}
+@media screen and (max-width: 1024px) {
+    .main {
+        background-color: rgb(11, 11, 11);
+    }
+    .c1 {
+        flex-direction: column;
+    }
+    .c1s1, .c1s2, .c1s4 {
+        width: 100%;
+    }
+    .c2 {
+        flex-direction: column;
+        width: 100%;
+    }
+    .c2s1, .c2s2 {
+        width: 100%;
+    }
+    .c3 {
+        flex-direction: column;
+        width: 100%;
+    }
+    .c3s1, .c3s2, .c3s3 {
+        width: 100%;
+    }
+}
+

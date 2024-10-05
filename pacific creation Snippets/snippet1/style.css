@@ -1,0 +1,208 @@
+.login-page-3 {
+  background: url('../assets/images/login_page_4.jpeg') 50% / cover no-repeat;
+  display: flex;
+  flex-direction: row;
+  padding: 35px 0 0 69px;
+  width: 1512px;
+  box-sizing: border-box;
+}
+.login-page-3 .email {
+  margin-right: 13.5px;
+  width: 50px;
+  overflow-wrap: break-word;
+  font-family: 'Poppins';
+  font-weight: 500;
+  font-size: 18px;
+  color: #000000;
+}
+.login-page-3 .vector {
+  margin: 6.3px 0 7.3px 0;
+  width: 16.8px;
+  height: 13.4px;
+}
+.login-page-3 .vector-1 {
+  margin: 4px 0 5.1px 0;
+  width: 13.4px;
+  height: 17.9px;
+}
+.login-page-3 .vector-2 {
+  border-radius: 8px;
+  position: absolute;
+  left: 50%;
+  bottom: 0px;
+  translate: -50% 0;
+  width: 13px;
+  height: 13px;
+}
+.login-page-3 .frame-427319606 {
+  border-bottom: 2px solid #000000;
+  margin: 0 0px 21px 0px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 17px 15.6px 16px 3px;
+  width: 424px;
+  box-sizing: border-box;
+}
+.login-page-3 .password {
+  margin-right: 13.5px;
+  width: 88px;
+  overflow-wrap: break-word;
+  font-family: 'Poppins';
+  font-weight: 500;
+  font-size: 18px;
+  color: #000000;
+}
+.login-page-3 .rectangle-189 {
+  border-radius: 17px;
+  background: #D9D9D9;
+  position: relative;
+  width: 11px;
+  height: 8px;
+}
+.login-page-3 .check-box {
+  position: relative;
+  margin: 7px 11px 7px 0;
+  display: flex;
+  padding: 2px 1px 3px 1px;
+  width: 13px;
+  height: 13px;
+  box-sizing: border-box;
+}
+.login-page-3 .remember-me {
+  overflow-wrap: break-word;
+  font-family: 'Poppins';
+  font-weight: 500;
+  font-size: 18px;
+  color: #000000;
+}
+.login-page-3 .forgot-password {
+  overflow-wrap: break-word;
+  font-family: 'Poppins';
+  font-weight: 500;
+  font-size: 18px;
+  color: #000000;
+}
+.login-page-3 .frame-427319607 {
+  border-radius: 10px;
+  background: #000000;
+  margin-bottom: 18px;
+  display: flex;
+  align-self: flex-start;
+  padding: 19px 0 18px 0.3px;
+  width: 424px;
+  box-sizing: border-box;
+}
+.login-page-3 .login {
+  overflow-wrap: break-word;
+  font-family: 'Raleway';
+  font-weight: 800;
+  font-size: 20px;
+  color: #FFFFFF;
+}
+.dont-have-an-account-register {
+  font-family: 'Poppins';
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 1.333;
+  color: #ABABAB;
+}
+.login-page-3 .dont-have-an-account-register {
+  margin-left: 7px;
+  align-self: center;
+  overflow-wrap: break-word;
+  font-family: 'Poppins';
+  font-weight: 500;
+  font-size: 18px;
+  color: #ABABAB;
+}
+.login-page-3 .remember-me-1 {
+  display: flex;
+  flex-direction: row;
+  box-sizing: border-box;
+}
+.login-page-3 .tech-vaseegrah-log-1 {
+  background: url('../assets/images/tech_vaseegrah_log_1.png') 50% / cover no-repeat;
+  width: 45px;
+  height: 45px;
+}
+.login-page-3 .top-nav {
+  margin: 0 13.8px 648px 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 409px;
+  height: fit-content;
+  box-sizing: border-box;
+}
+.login-page-3 .about {
+  margin: 12px 0;
+  display: inline-block;
+  overflow-wrap: break-word;
+  font-family: 'Raleway';
+  font-weight: 600;
+  font-size: 18px;
+  color: #FFFFFF;
+}
+.login-page-3 .services {
+  margin: 12px 0;
+  display: inline-block;
+  overflow-wrap: break-word;
+  font-family: 'Raleway';
+  font-weight: 600;
+  font-size: 18px;
+  color: #FFFFFF;
+}
+.login-page-3 .contact {
+  margin: 12px 0;
+  display: inline-block;
+  overflow-wrap: break-word;
+  font-family: 'Raleway';
+  font-weight: 600;
+  font-size: 18px;
+  color: #FFFFFF;
+}
+.login-page-3 .login-1 {
+  margin: 0 0.9px 28px 0;
+  display: inline-block;
+  align-self: center;
+  overflow-wrap: break-word;
+  font-family: 'Raleway';
+  font-weight: 800;
+  font-size: 24px;
+  color: #000000;
+}
+.login-page-3 .frame-427319605 {
+  border-bottom: 2px solid #000000;
+  margin: 0 0px 21px 0px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 17px 15.6px 16px 3px;
+  width: 424px;
+  box-sizing: border-box;
+}
+.login-page-3 .container {
+  margin-bottom: 31px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 424px;
+  box-sizing: border-box;
+}
+.login-page-3 .container-1 {
+  box-shadow: 0px 4px 24px -1px rgba(0, 0, 0, 0.2);
+  backdrop-filter: blur(25px);
+  border-radius: 40px;
+  border: 1px solid #FFFFFF;
+  background: linear-gradient(180deg, rgba(217, 217, 217, 0.4), rgba(115, 115, 115, 0.1));
+  position: relative;
+  margin-top: 192px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  padding: 48px 49px 72px 50px;
+  width: 529px;
+  height: fit-content;
+  box-sizing: border-box;
+}
